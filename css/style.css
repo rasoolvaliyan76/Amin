@@ -2,6 +2,11 @@
     font-family: iran-sans;
     src: url("../font/IRANSans-Black.ttf") format("truetype");
 }
+@media screen and (max-width:992px) {
+    #navbar-responsive {
+        display: block!important;
+    }
+}
 * {
     padding: 0;
     margin: 0;
@@ -44,4 +49,10 @@ header {
 }
 .card-body {
     width: 100%;
+}
+#nav-res ul hr {
+    margin: 0;
+}
+#nav-res ul li:hover {
+    background-color: rgba(166, 165, 165, 0.25);
 }
