@@ -1,0 +1,48 @@
+@font-face {
+    font-family: iran-sans;
+    src: url("../font/IRANSans-Black.ttf") format("truetype");
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: iran-sans;
+    direction: rtl;
+}
+/* index */
+#navbar ul li a{
+    border-radius: 7%;
+}
+#navbar ul li a:hover{
+    background-color: #e3ad4f;
+}
+header {
+    display: flex;
+    position: relative;
+}
+.header-content {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    right: 10%;
+}
+.header-shape {
+    background-color: #e3ad4f;
+    width: 100%;
+}
+/* signup */
+#s-navbar {
+    background-color: #e3ad4f;
+}
+#s-navbar ul li a{
+    color: #fff;
+}
+#s-navbar ul li{
+    border-radius: 7%;
+}
+#s-navbar ul li:hover{
+    background-color: rgba(152, 134, 114, 0.24);
+}
+.card-body {
+    width: 100%;
+}

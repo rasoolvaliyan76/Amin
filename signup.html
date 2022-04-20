@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ثبت نام | سامانه مبلغان امین</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+</head>
+<body class="bg-light">
+<noscript>لطفقا جاوااسکریپت مرورگر خود را فعال کنید.</noscript>
+<nav class="navbar navbar-expand-lg navbar-light p-0">
+    <div class="container-fluid p-0">
+        <div class="collapse navbar-collapse p-3" id="s-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="index.html">خانه</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="signup.html">ثبت نام</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">ورود</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">تماس با ما</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">درباره ما</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="signup-card" class="container my-5">
+    <div class="row">
+        <div class="col">
+            <div class="card w-100">
+                <div class="card-header bg-warning bg-opacity-25">
+                    <h2>ثبت نام</h2>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name-input" class="form-label">نام و نام خانوادگی</label>
+                            <input type="text" class="form-control" id="name-input">
+                        </div>
+                        <div class="mb-3">
+                            <label for="father-name-input" class="form-label">نام پدر</label>
+                            <input type="text" class="form-control" id="father-name-input">
+                        </div>
+                        <div class="mb-3">
+                            <label for="id-input" class="form-label">کد ملی</label>
+                            <input type="text" class="form-control" id="id-input">
+                        </div>
+                        <div class="mb-3">
+                            <label for="gender-select" class="form-label">وضعیت ﺗﺄﻫﻞ</label>
+                            <select class="form-select" aria-label="Default select example" id="gender-select">
+                                <option value="1">مجرد</option>
+                                <option value="2">متاهل</option>
+                                <option value="3">طلاق</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="level" class="form-label">تحصیلات</label>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="level" id="university">
+                                <label class="form-check-label" for="university">
+                                    دانشگاهی
+                                </label>
+                            </div>
+                            <div class="form-check-inline mb-3">
+                                <input class="form-check-input" type="radio" name="uni-level" id="level1" disabled>
+                                <label class="form-check-label me-2" for="level1">
+                                    کارشناسی
+                                </label>
+                                <input class="form-check-input" type="radio" name="uni-level" id="level2" disabled>
+                                <label class="form-check-label me-2" for="level2">
+                                    کارشناسی ارشد
+                                </label>
+                                <input class="form-check-input" type="radio" name="uni-level" id="level3" disabled>
+                                <label class="form-check-label me-2" for="level3">
+                                    دکتری
+                                </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="id-input" class="form-label">رشته</label>
+                                <input type="text" class="form-control" id="uni-course" disabled>
+                            </div>
+                            <div class="mb-3">
+                                <label for="id-input" class="form-label">نام دانشگاه</label>
+                                <input type="text" class="form-control" id="uni-name" disabled>
+                            </div>
+                            <div class="mb-3">
+                                <label for="id-input" class="form-label">شماره دانشجویی</label>
+                                <input type="text" class="form-control" id="uni-id" disabled>
+                            </div>
+                            <div class="form-check mb-3" id="level">
+                                <input class="form-check-input" type="radio" name="level" id="howzavi">
+                                <label class="form-check-label" for="howzavi">
+                                    حوزوی
+                                </label>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select" aria-label="Default select example" id="level-select" disabled>
+                                    <option value="1">سطح یک</option>
+                                    <option value="2">سطح دو</option>
+                                    <option value="3">سطح سه</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="howze-name" class="form-label">نام حوزه علمیه</label>
+                                <input type="text" class="form-control" id="howze-name" disabled>
+                            </div>
+                            <div class="mb-4">
+                                <label for="special-work" class="form-label">مهارت تخصصی</label>
+                                <input type="text" class="form-control" id="special-work">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-warning">ثبت نام</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+</body>
+</html>
