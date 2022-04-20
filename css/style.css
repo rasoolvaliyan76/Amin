@@ -21,10 +21,9 @@ header {
     position: relative;
 }
 .header-content {
-    position: absolute;
     color: #fff;
-    top: 40%;
-    right: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
 }
 .header-shape {
     background-color: #e3ad4f;
